@@ -1,0 +1,38 @@
+[
+  {
+    "id": "original-sample-0",
+    "title": "Compact apartment \u00b7 72 m\u00b2",
+    "type": "concept",
+    "available_image_count": 1,
+    "images": [
+      {
+        "preview_url": "/concept-1.svg",
+        "name": "Compact apartment \u00b7 72 m\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "original-sample-1",
+    "title": "Family home \u00b7 108 m\u00b2",
+    "type": "concept",
+    "available_image_count": 1,
+    "images": [
+      {
+        "preview_url": "/concept-2.svg",
+        "name": "Family home \u00b7 108 m\u00b2"
+      }
+    ]
+  },
+  {
+    "id": "original-sample-2",
+    "title": "Bungalow concept \u00b7 144 m\u00b2",
+    "type": "concept",
+    "available_image_count": 1,
+    "images": [
+      {
+        "preview_url": "/concept-3.svg",
+        "name": "Bungalow concept \u00b7 144 m\u00b2"
+      }
+    ]
+  }
+]
