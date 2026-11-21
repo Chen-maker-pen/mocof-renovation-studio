@@ -1,5 +1,7 @@
 # MOCOF Renovation Studio — Portfolio Edition
 
+[Live demo](https://mocof-renovation-studio.vercel.app) · [GitHub repository](https://github.com/Chen-maker-pen/mocof-renovation-studio)
+
 An interactive home renovation planner by **Chit Naing**. Draw rooms and partitions, place fixed-size furniture, inspect your layout in 2D or a navigable 3D studio, and export a structured item list for quotation review.
 
 This repository is a public sample-data edition of a larger local prototype. It contains original schematic samples, not private customer projects, supplier catalogs or company Drive photographs.
