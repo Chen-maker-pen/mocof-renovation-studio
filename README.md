@@ -4,9 +4,11 @@
 
 An interactive home renovation planner by **Chit Naing**. Draw rooms and partitions, place fixed-size furniture, inspect your layout in 2D or a navigable 3D studio, and export a structured item list for quotation review.
 
-This repository is a public sample-data edition of a larger local prototype. It contains original schematic samples, not private customer projects, supplier catalogs or company Drive photographs.
+This repository is a public sample-data edition of a larger local prototype. It includes illustrative planning samples and a MOCOF reference gallery restored from the owner-provided Drive collection. Customer project storage and supplier catalogs are excluded.
 
 ## Features
+
+- Reference gallery with 25 design concepts, six completed-home collections and 93 photo previews.
 
 - Guided floor-plan → style → furnish → review workflow.
 - 15 editable sample templates: six furnished rooms, six room outlines and three whole-house concepts.

@@ -1,37 +1,807 @@
 [
   {
-    "id": "original-sample-0",
-    "title": "Compact apartment \u00b7 72 m\u00b2",
+    "id": "mocof-collection-1",
+    "title": "莫兰迪轻语- Morandi-Kitchen",
     "type": "concept",
-    "available_image_count": 1,
+    "available_image_count": 18,
     "images": [
       {
-        "preview_url": "/concept-1.svg",
-        "name": "Compact apartment \u00b7 72 m\u00b2"
+        "id": "collection-1-photo-1",
+        "name": "莫兰迪轻语- Morandi-Kitchen.jpeg",
+        "room": "edited",
+        "preview_url": "/design-assets/collection-1-photo-1.jpg"
+      },
+      {
+        "id": "collection-1-photo-2",
+        "name": "莫兰迪轻语- Morandi-Kitchen.jpeg",
+        "room": "edited",
+        "preview_url": "/design-assets/collection-1-photo-2.jpg"
+      },
+      {
+        "id": "collection-1-photo-3",
+        "name": "莫兰迪轻语- Morandi-Kitchen.jpeg",
+        "room": "edited",
+        "preview_url": "/design-assets/collection-1-photo-3.jpg"
       }
     ]
   },
   {
-    "id": "original-sample-1",
-    "title": "Family home \u00b7 108 m\u00b2",
+    "id": "mocof-collection-2",
+    "title": "云漫时空 - Cloud Realm",
     "type": "concept",
-    "available_image_count": 1,
+    "available_image_count": 19,
     "images": [
       {
-        "preview_url": "/concept-2.svg",
-        "name": "Family home \u00b7 108 m\u00b2"
+        "id": "collection-2-photo-1",
+        "name": "精品展示柜.jpg",
+        "room": "尚品现代简约-【云漫时空】系列",
+        "preview_url": "/design-assets/collection-2-photo-1.jpg"
+      },
+      {
+        "id": "collection-2-photo-2",
+        "name": "多功能展示收纳柜.jpg",
+        "room": "尚品现代简约-【云漫时空】系列",
+        "preview_url": "/design-assets/collection-2-photo-2.jpg"
+      },
+      {
+        "id": "collection-2-photo-3",
+        "name": "主卧 (2).jpg",
+        "room": "尚品现代简约-【云漫时空】系列",
+        "preview_url": "/design-assets/collection-2-photo-3.jpg"
       }
     ]
   },
   {
-    "id": "original-sample-2",
-    "title": "Bungalow concept \u00b7 144 m\u00b2",
+    "id": "mocof-collection-3",
+    "title": "冰川之境- Glacier Mirror",
     "type": "concept",
-    "available_image_count": 1,
+    "available_image_count": 19,
     "images": [
       {
-        "preview_url": "/concept-3.svg",
-        "name": "Bungalow concept \u00b7 144 m\u00b2"
+        "id": "collection-3-photo-1",
+        "name": "橱柜 Cabinet.jpg",
+        "room": "橱柜 Cabinet",
+        "preview_url": "/design-assets/collection-3-photo-1.jpg"
+      },
+      {
+        "id": "collection-3-photo-2",
+        "name": "橱柜 Cabinet.jpg",
+        "room": "橱柜 Cabinet",
+        "preview_url": "/design-assets/collection-3-photo-2.jpg"
+      },
+      {
+        "id": "collection-3-photo-3",
+        "name": "客房 Guest Room.jpg",
+        "room": "客房 Guest Room",
+        "preview_url": "/design-assets/collection-3-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-4",
+    "title": "梵木- Brahma Wood",
+    "type": "concept",
+    "available_image_count": 11,
+    "images": [
+      {
+        "id": "collection-4-photo-1",
+        "name": "梵木- Brahma Wood.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-4-photo-1.jpg"
+      },
+      {
+        "id": "collection-4-photo-2",
+        "name": "梵木- Brahma Wood.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-4-photo-2.jpg"
+      },
+      {
+        "id": "collection-4-photo-3",
+        "name": "梵木- Brahma Wood.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-4-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-5",
+    "title": "头号玩家- Top Player",
+    "type": "concept",
+    "available_image_count": 9,
+    "images": [
+      {
+        "id": "collection-5-photo-1",
+        "name": "头号玩家- Top Player.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-5-photo-1.jpg"
+      },
+      {
+        "id": "collection-5-photo-2",
+        "name": "头号玩家- Top Player.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-5-photo-2.jpg"
+      },
+      {
+        "id": "collection-5-photo-3",
+        "name": "头号玩家- Top Player.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-5-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-6",
+    "title": "胡桃可可 - Walnut Cocoa",
+    "type": "concept",
+    "available_image_count": 6,
+    "images": [
+      {
+        "id": "collection-6-photo-1",
+        "name": "4.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-6-photo-1.jpg"
+      },
+      {
+        "id": "collection-6-photo-2",
+        "name": "3.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-6-photo-2.jpg"
+      },
+      {
+        "id": "collection-6-photo-3",
+        "name": "1.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-6-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-7",
+    "title": "绿野狂想- Green Wild Rhapsody",
+    "type": "concept",
+    "available_image_count": 6,
+    "images": [
+      {
+        "id": "collection-7-photo-1",
+        "name": "厨房 - Kitchen.jpg",
+        "room": "厨房 - Kitchen",
+        "preview_url": "/design-assets/collection-7-photo-1.jpg"
+      },
+      {
+        "id": "collection-7-photo-2",
+        "name": "厨房 - Kitchen.jpg",
+        "room": "厨房 - Kitchen",
+        "preview_url": "/design-assets/collection-7-photo-2.jpg"
+      },
+      {
+        "id": "collection-7-photo-3",
+        "name": "厨房 - Kitchen.jpg",
+        "room": "厨房 - Kitchen",
+        "preview_url": "/design-assets/collection-7-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-8",
+    "title": "白金香槟 - Champagne Luxe",
+    "type": "concept",
+    "available_image_count": 10,
+    "images": [
+      {
+        "id": "collection-8-photo-1",
+        "name": "书房2.jpg",
+        "room": "尚品轻法复古-【白金香槟】系列",
+        "preview_url": "/design-assets/collection-8-photo-1.jpg"
+      },
+      {
+        "id": "collection-8-photo-2",
+        "name": "书房1.jpg",
+        "room": "尚品轻法复古-【白金香槟】系列",
+        "preview_url": "/design-assets/collection-8-photo-2.jpg"
+      },
+      {
+        "id": "collection-8-photo-3",
+        "name": "PS客餐厅1.jpg",
+        "room": "尚品轻法复古-【白金香槟】系列",
+        "preview_url": "/design-assets/collection-8-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-9",
+    "title": "冬日恋歌- Winter Love ",
+    "type": "concept",
+    "available_image_count": 6,
+    "images": [
+      {
+        "id": "collection-9-photo-1",
+        "name": "洗手台 Balcony Utility Area.jpg",
+        "room": "洗手台 Balcony Utility Area",
+        "preview_url": "/design-assets/collection-9-photo-1.jpg"
+      },
+      {
+        "id": "collection-9-photo-2",
+        "name": "洗手台 Balcony Utility Area.jpg",
+        "room": "洗手台 Balcony Utility Area",
+        "preview_url": "/design-assets/collection-9-photo-2.jpg"
+      },
+      {
+        "id": "collection-9-photo-3",
+        "name": "厨房 Kitchen.jpg",
+        "room": "厨房 Kitchen",
+        "preview_url": "/design-assets/collection-9-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-10",
+    "title": "云顶澜山 - Rising at the Pinnacle",
+    "type": "concept",
+    "available_image_count": 7,
+    "images": [
+      {
+        "id": "collection-10-photo-1",
+        "name": "橱柜- Cabinet.jpg",
+        "room": "橱柜- Cabinet",
+        "preview_url": "/design-assets/collection-10-photo-1.jpg"
+      },
+      {
+        "id": "collection-10-photo-2",
+        "name": "橱柜- Cabinet.jpg",
+        "room": "橱柜- Cabinet",
+        "preview_url": "/design-assets/collection-10-photo-2.jpg"
+      },
+      {
+        "id": "collection-10-photo-3",
+        "name": "厨房- Kitchen.jpg",
+        "room": "厨房- Kitchen",
+        "preview_url": "/design-assets/collection-10-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-11",
+    "title": "山海- Mountain and Sea",
+    "type": "concept",
+    "available_image_count": 25,
+    "images": [
+      {
+        "id": "collection-11-photo-1",
+        "name": "洗手台 - Balcony Utility Area.jpg",
+        "room": "洗手台 - Balcony Utility Area",
+        "preview_url": "/design-assets/collection-11-photo-1.jpg"
+      },
+      {
+        "id": "collection-11-photo-2",
+        "name": "洗手台 - Balcony Utility Area.jpg",
+        "room": "洗手台 - Balcony Utility Area",
+        "preview_url": "/design-assets/collection-11-photo-2.jpg"
+      },
+      {
+        "id": "collection-11-photo-3",
+        "name": "橱柜- Cabinet.jpg",
+        "room": "橱柜 - Cabinet",
+        "preview_url": "/design-assets/collection-11-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-12",
+    "title": "沉香 - Agarwood",
+    "type": "concept",
+    "available_image_count": 31,
+    "images": [
+      {
+        "id": "collection-12-photo-1",
+        "name": "客厅.jpg",
+        "room": "尚品中古风（深色）-【沉香】系列",
+        "preview_url": "/design-assets/collection-12-photo-1.jpg"
+      },
+      {
+        "id": "collection-12-photo-2",
+        "name": "沙发背景墙.jpg",
+        "room": "尚品中古风（深色）-【沉香】系列",
+        "preview_url": "/design-assets/collection-12-photo-2.jpg"
+      },
+      {
+        "id": "collection-12-photo-3",
+        "name": "餐边柜贝.jpg",
+        "room": "尚品中古风（深色）-【沉香】系列",
+        "preview_url": "/design-assets/collection-12-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-13",
+    "title": "星河流沙- Stardust",
+    "type": "concept",
+    "available_image_count": 12,
+    "images": [
+      {
+        "id": "collection-13-photo-1",
+        "name": "餐边柜 Dining Area Side Cabinet.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-13-photo-1.jpg"
+      },
+      {
+        "id": "collection-13-photo-2",
+        "name": "隔断柜 Divider Cabinet.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-13-photo-2.jpg"
+      },
+      {
+        "id": "collection-13-photo-3",
+        "name": "衣柜 Wardrobe.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-13-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-14",
+    "title": "仲夏夜之梦（马卡龙）-Midsummer Night's Dream-Kitchen",
+    "type": "concept",
+    "available_image_count": 20,
+    "images": [
+      {
+        "id": "collection-14-photo-1",
+        "name": "厨房 Kitchen.jpg",
+        "room": "厨房 Kitchen",
+        "preview_url": "/design-assets/collection-14-photo-1.jpg"
+      },
+      {
+        "id": "collection-14-photo-2",
+        "name": "厨房 Kitchen.jpg",
+        "room": "厨房 Kitchen",
+        "preview_url": "/design-assets/collection-14-photo-2.jpg"
+      },
+      {
+        "id": "collection-14-photo-3",
+        "name": "厨房 Kitchen.jpg",
+        "room": "厨房 Kitchen",
+        "preview_url": "/design-assets/collection-14-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-15",
+    "title": "云梦芭蕾 - Dream Ballet",
+    "type": "concept",
+    "available_image_count": 44,
+    "images": [
+      {
+        "id": "collection-15-photo-1",
+        "name": "云梦芭蕾 (16).jpg",
+        "room": "云梦芭蕾-渲染 (Catalogue Photo)",
+        "preview_url": "/design-assets/collection-15-photo-1.jpg"
+      },
+      {
+        "id": "collection-15-photo-2",
+        "name": "云梦芭蕾 (15).jpg",
+        "room": "云梦芭蕾-渲染 (Catalogue Photo)",
+        "preview_url": "/design-assets/collection-15-photo-2.jpg"
+      },
+      {
+        "id": "collection-15-photo-3",
+        "name": "云梦芭蕾 (14).jpg",
+        "room": "云梦芭蕾-渲染 (Catalogue Photo)",
+        "preview_url": "/design-assets/collection-15-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-16",
+    "title": "晨光奶咖- Morning Milky Coffee",
+    "type": "concept",
+    "available_image_count": 18,
+    "images": [
+      {
+        "id": "collection-16-photo-1",
+        "name": "橱柜 - Front Door Cabinet.jpg",
+        "room": "橱柜 - Front Door Cabinet",
+        "preview_url": "/design-assets/collection-16-photo-1.jpg"
+      },
+      {
+        "id": "collection-16-photo-2",
+        "name": "橱柜 - Front Door Cabinet.jpg",
+        "room": "橱柜 - Front Door Cabinet",
+        "preview_url": "/design-assets/collection-16-photo-2.jpg"
+      },
+      {
+        "id": "collection-16-photo-3",
+        "name": "客厅:厨房 - Living Room.jpg",
+        "room": "客厅:厨房 - Living Room",
+        "preview_url": "/design-assets/collection-16-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-17",
+    "title": "迎光- Embracing Light",
+    "type": "concept",
+    "available_image_count": 17,
+    "images": [
+      {
+        "id": "collection-17-photo-1",
+        "name": "餐边柜 - Dining Area Side Cabinet.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-17-photo-1.jpg"
+      },
+      {
+        "id": "collection-17-photo-2",
+        "name": "餐边柜 - Dining Area Side Cabinet.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-17-photo-2.jpg"
+      },
+      {
+        "id": "collection-17-photo-3",
+        "name": "立柱系统 - Pillar System.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-17-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-18",
+    "title": "白露烟岚 - Dew Serenity",
+    "type": "concept",
+    "available_image_count": 19,
+    "images": [
+      {
+        "id": "collection-18-photo-1",
+        "name": "餐边柜打开图.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-18-photo-1.jpg"
+      },
+      {
+        "id": "collection-18-photo-2",
+        "name": "2.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-18-photo-2.jpg"
+      },
+      {
+        "id": "collection-18-photo-3",
+        "name": "10_pet02_0000.jpg",
+        "room": "",
+        "preview_url": "/design-assets/collection-18-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-19",
+    "title": "香榭假日- Champs Elysees Holiday",
+    "type": "concept",
+    "available_image_count": 21,
+    "images": [
+      {
+        "id": "collection-19-photo-1",
+        "name": "香榭假日- Champs Elysees Holiday Real Site.jpg",
+        "room": "Actual site photo ",
+        "preview_url": "/design-assets/collection-19-photo-1.jpg"
+      },
+      {
+        "id": "collection-19-photo-2",
+        "name": "香榭假日- Champs Elysees Holiday Real Site.jpg",
+        "room": "Actual site photo ",
+        "preview_url": "/design-assets/collection-19-photo-2.jpg"
+      },
+      {
+        "id": "collection-19-photo-3",
+        "name": "香榭假日- Champs Elysees Holiday Real Site.jpg",
+        "room": "Actual site photo ",
+        "preview_url": "/design-assets/collection-19-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-20",
+    "title": "晴川木语- Elm Wood Riverside",
+    "type": "concept",
+    "available_image_count": 22,
+    "images": [
+      {
+        "id": "collection-20-photo-1",
+        "name": "饭厅 - Dining Area.jpg",
+        "room": "饭厅 - Dining Area",
+        "preview_url": "/design-assets/collection-20-photo-1.jpg"
+      },
+      {
+        "id": "collection-20-photo-2",
+        "name": "饭厅 - Dining Area.jpg",
+        "room": "饭厅 - Dining Area",
+        "preview_url": "/design-assets/collection-20-photo-2.jpg"
+      },
+      {
+        "id": "collection-20-photo-3",
+        "name": "饭厅 - Dining Area.jpg",
+        "room": "饭厅 - Dining Area",
+        "preview_url": "/design-assets/collection-20-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-21",
+    "title": "云山秘境- Mountain Mystery",
+    "type": "concept",
+    "available_image_count": 15,
+    "images": [
+      {
+        "id": "collection-21-photo-1",
+        "name": "卧室 (Bedroom).jpg",
+        "room": "卧室 (Bedroom)",
+        "preview_url": "/design-assets/collection-21-photo-1.jpg"
+      },
+      {
+        "id": "collection-21-photo-2",
+        "name": "卧室 (Bedroom).jpg",
+        "room": "卧室 (Bedroom)",
+        "preview_url": "/design-assets/collection-21-photo-2.jpg"
+      },
+      {
+        "id": "collection-21-photo-3",
+        "name": "卧室 (Bedroom).jpg",
+        "room": "卧室 (Bedroom)",
+        "preview_url": "/design-assets/collection-21-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-22",
+    "title": "丛林派对-Jungle Party",
+    "type": "concept",
+    "available_image_count": 10,
+    "images": [
+      {
+        "id": "collection-22-photo-1",
+        "name": "Bedroom 1.jpg",
+        "room": "Bedroom",
+        "preview_url": "/design-assets/collection-22-photo-1.jpg"
+      },
+      {
+        "id": "collection-22-photo-2",
+        "name": "Bedroom 2.jpg",
+        "room": "Bedroom",
+        "preview_url": "/design-assets/collection-22-photo-2.jpg"
+      },
+      {
+        "id": "collection-22-photo-3",
+        "name": "Bedroom 3.jpg",
+        "room": "Bedroom",
+        "preview_url": "/design-assets/collection-22-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-23",
+    "title": "璞悦 - Lush Jade",
+    "type": "concept",
+    "available_image_count": 11,
+    "images": [
+      {
+        "id": "collection-23-photo-1",
+        "name": "书房.jpg",
+        "room": "尚品中古风（浅色）-【璞悦】系列",
+        "preview_url": "/design-assets/collection-23-photo-1.jpg"
+      },
+      {
+        "id": "collection-23-photo-2",
+        "name": "衣帽间.jpg",
+        "room": "尚品中古风（浅色）-【璞悦】系列",
+        "preview_url": "/design-assets/collection-23-photo-2.jpg"
+      },
+      {
+        "id": "collection-23-photo-3",
+        "name": "整体餐边柜.jpg",
+        "room": "尚品中古风（浅色）-【璞悦】系列",
+        "preview_url": "/design-assets/collection-23-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-24",
+    "title": "空谷幽兰- Orchid Valley",
+    "type": "concept",
+    "available_image_count": 7,
+    "images": [
+      {
+        "id": "collection-24-photo-1",
+        "name": "洗手台 - Balcony Utility Area.jpg",
+        "room": "洗手台 - Balcony Utility Area",
+        "preview_url": "/design-assets/collection-24-photo-1.jpg"
+      },
+      {
+        "id": "collection-24-photo-2",
+        "name": "洗手台 - Balcony Utility Area.jpg",
+        "room": "洗手台 - Balcony Utility Area",
+        "preview_url": "/design-assets/collection-24-photo-2.jpg"
+      },
+      {
+        "id": "collection-24-photo-3",
+        "name": "洗手台 - Balcony Utility Area.jpg",
+        "room": "洗手台 - Balcony Utility Area",
+        "preview_url": "/design-assets/collection-24-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-25",
+    "title": "至尚光年- Light Year",
+    "type": "concept",
+    "available_image_count": 12,
+    "images": [
+      {
+        "id": "collection-25-photo-1",
+        "name": "餐厅 - Dining.jpg",
+        "room": "餐厅 - Dining",
+        "preview_url": "/design-assets/collection-25-photo-1.jpg"
+      },
+      {
+        "id": "collection-25-photo-2",
+        "name": "餐厅 - Dining.jpg",
+        "room": "餐厅 - Dining",
+        "preview_url": "/design-assets/collection-25-photo-2.jpg"
+      },
+      {
+        "id": "collection-25-photo-3",
+        "name": "客厅 - Living Room.jpg",
+        "room": "客厅 - Living Room",
+        "preview_url": "/design-assets/collection-25-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-26",
+    "title": "Completed home 1",
+    "type": "completed",
+    "available_image_count": 21,
+    "images": [
+      {
+        "id": "collection-26-photo-1",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-26-photo-1.jpg"
+      },
+      {
+        "id": "collection-26-photo-2",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-26-photo-2.jpg"
+      },
+      {
+        "id": "collection-26-photo-3",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-26-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-27",
+    "title": "Completed home 2",
+    "type": "completed",
+    "available_image_count": 11,
+    "images": [
+      {
+        "id": "collection-27-photo-1",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-27-photo-1.jpg"
+      },
+      {
+        "id": "collection-27-photo-2",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-27-photo-2.jpg"
+      },
+      {
+        "id": "collection-27-photo-3",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-27-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-28",
+    "title": "Completed home 3",
+    "type": "completed",
+    "available_image_count": 33,
+    "images": [
+      {
+        "id": "collection-28-photo-1",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-28-photo-1.jpg"
+      },
+      {
+        "id": "collection-28-photo-2",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-28-photo-2.jpg"
+      },
+      {
+        "id": "collection-28-photo-3",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-28-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-29",
+    "title": "Completed home 4",
+    "type": "completed",
+    "available_image_count": 31,
+    "images": [
+      {
+        "id": "collection-29-photo-1",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-29-photo-1.jpg"
+      },
+      {
+        "id": "collection-29-photo-2",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-29-photo-2.jpg"
+      },
+      {
+        "id": "collection-29-photo-3",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-29-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-30",
+    "title": "Completed home 5",
+    "type": "completed",
+    "available_image_count": 35,
+    "images": [
+      {
+        "id": "collection-30-photo-1",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-30-photo-1.jpg"
+      },
+      {
+        "id": "collection-30-photo-2",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-30-photo-2.jpg"
+      },
+      {
+        "id": "collection-30-photo-3",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-30-photo-3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "mocof-collection-31",
+    "title": "Completed home 6",
+    "type": "completed",
+    "available_image_count": 17,
+    "images": [
+      {
+        "id": "collection-31-photo-1",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-31-photo-1.jpg"
+      },
+      {
+        "id": "collection-31-photo-2",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-31-photo-2.jpg"
+      },
+      {
+        "id": "collection-31-photo-3",
+        "name": "Completed renovation photo",
+        "room": "",
+        "preview_url": "/design-assets/collection-31-photo-3.jpg"
       }
     ]
   }
