@@ -10,7 +10,7 @@ function toggleExpanded(){const expand=!host.classList.contains('expanded-view')
 closeView.onclick=toggleExpanded;
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&host.classList.contains('expanded-view'))toggleExpanded();});
 const tools=document.createElement('div');tools.className='viewer-tools';
-tools.innerHTML='<button id="load-bedroom">Load bedroom example</button><button id="fit-camera">Fit view</button><button id="expand-3d">Expand 3D view</button><button id="drag-furniture">Move furniture in 3D</button><label><input id="outer-walls" type="checkbox" checked> Room walls</label><label><input id="cutaway-walls" type="checkbox" checked> Cutaway walls</label><span id="viewer-status" role="status">3D viewer ready</span>';
+tools.innerHTML='<button id="load-bedroom">Load bedroom example</button><button id="fit-camera">Fit view</button><button id="expand-3d">Expand 3D view</button><button id="drag-furniture">Move furniture in 3D</button><label><input id="outer-walls" type="checkbox" checked> Room walls</label><label><input id="cutaway-walls" type="checkbox"> Cutaway walls</label><span id="viewer-status" role="status">3D viewer ready</span>';
 drawingToolbar.after(tools);
 const explore=document.createElement('button');explore.id='explore-3d';explore.textContent='Explore 3D studio';explore.className='explore-3d';$('begin-design').after(explore);
 let renderer,scene,camera,controls,objects,raf,dragItem=null,dragOffset=new THREE.Vector3(),moveMode=false;
@@ -169,5 +169,5 @@ houseButton.onclick=()=>{
   project.name=house.title+' · illustrative';project.sample_layout=house.id;project.reference=null;project.layout=null;selected=null;
   $('name').value=project.name;$('rw').value=house.width;$('rd').value=house.depth;changed();beginDesign();showStep(2);open3d();notify('Illustrative sample layout. Confirm actual measurements and product choices before quoting.');
 };
-explore.onclick=()=>{beginDesign();showStep(2);if(!project.items.length)example();else open3d();};
+explore.onclick=()=>{beginDesign();showStep(2);if(!project.items.length&&!project.layout&&!project.walls?.length)example();else open3d();};
 const stageObserver=new MutationObserver(()=>{if(!host.hidden){resize();}});stageObserver.observe(canvasWrap,{attributes:true,subtree:false});
