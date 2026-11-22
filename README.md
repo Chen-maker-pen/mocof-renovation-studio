@@ -8,6 +8,8 @@ This repository is a public sample-data edition of a larger local prototype. It 
 
 ## Features
 
+- Convert uploaded floor-plan images into reviewed editable wall drafts: crop building margins, set metres/feet, detect thick orthogonal lines or trace manually, then inspect full-height 3D geometry. Detection requires review; openings and furniture are added separately.
+
 - Reference gallery with 25 design concepts, six completed-home collections and 93 photo previews.
 
 - Guided floor-plan → style → furnish → review workflow.
