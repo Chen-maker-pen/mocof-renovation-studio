@@ -1,0 +1,446 @@
+{
+  "category": "装饰 → 品牌模型 → 冰箱",
+  "method": "Observed virtual-list row positions, grouped into 12-card page windows. Duplicate names are preserved; stable IDs were not verified.",
+  "page_counts": [
+    12,
+    12,
+    12,
+    12,
+    12,
+    12
+  ],
+  "records": [
+    {
+      "ordinal": 1,
+      "page": 1,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝F+冰箱BCD-520WICTU1"
+    },
+    {
+      "ordinal": 2,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔冰柜海尔-LW-120HCD-冰柜"
+    },
+    {
+      "ordinal": 3,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔大空间冰箱海尔-BCD-656WDPT冰箱"
+    },
+    {
+      "ordinal": 4,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔对门冰箱海尔-BCD-615WDCZ-冰箱"
+    },
+    {
+      "ordinal": 5,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔互联网冰箱海尔-BCD-611WDIEU1冰箱"
+    },
+    {
+      "ordinal": 6,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔冰箱海尔-BCD-605WSCGU1-冰箱"
+    },
+    {
+      "ordinal": 7,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔时尚冰箱海尔-BCD-601WDPR-冰箱"
+    },
+    {
+      "ordinal": 8,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔601升冰箱海尔-BCD-601WDGU-冰箱"
+    },
+    {
+      "ordinal": 9,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔全空间保鲜冰箱海尔-BCD-560WDCZ-冰箱"
+    },
+    {
+      "ordinal": 10,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔541升变频风冷冰箱海尔-BCD-541WDGL冰箱"
+    },
+    {
+      "ordinal": 11,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔时尚大空间冰箱海尔-BCD-539WDCO冰箱"
+    },
+    {
+      "ordinal": 12,
+      "page": 1,
+      "store": "海尔旗舰店",
+      "name": "海尔冰箱海尔-BCD-536WDEB-冰箱"
+    },
+    {
+      "ordinal": 13,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔冰箱海尔-BCD-527WDPC-冰箱"
+    },
+    {
+      "ordinal": 14,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔冰箱幻影系列海尔-BCD-503WDCEU1冰箱"
+    },
+    {
+      "ordinal": 15,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔变频冰箱海尔-BCD-471WDCD-冰箱"
+    },
+    {
+      "ordinal": 16,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔互联网冰箱海尔-BCD-458WDIAU1-冰箱"
+    },
+    {
+      "ordinal": 17,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔干湿分储冰箱海尔-BCD-450WDCZU1冰箱"
+    },
+    {
+      "ordinal": 18,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔法式四门冰箱海尔-BCD-449WDCO冰箱"
+    },
+    {
+      "ordinal": 19,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔大空间冰箱海尔-BCD-445WDGG冰箱"
+    },
+    {
+      "ordinal": 20,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔保鲜冰箱海尔-BCD-429WDGNU1-冰箱"
+    },
+    {
+      "ordinal": 21,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔冰箱幻影系列海尔-BCD-426WDCEU1冰箱"
+    },
+    {
+      "ordinal": 22,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔中字五门冰箱海尔-BCD-415WDCEU1冰箱"
+    },
+    {
+      "ordinal": 23,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔分储冰箱海尔-BCD-405WDGQU1-冰箱"
+    },
+    {
+      "ordinal": 24,
+      "page": 2,
+      "store": "海尔旗舰店",
+      "name": "海尔分储冰箱海尔-BCD-349WDCV冰箱"
+    },
+    {
+      "ordinal": 25,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔分储冰箱海尔-BCD-349WDCO冰箱"
+    },
+    {
+      "ordinal": 26,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔意式冰箱海尔-BCD-345WDGFU1-冰箱"
+    },
+    {
+      "ordinal": 27,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔风冷冰箱海尔-BCD-342WDGY冰箱"
+    },
+    {
+      "ordinal": 28,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔时尚法式冰箱海尔-BCD-336WDPC冰箱"
+    },
+    {
+      "ordinal": 29,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔四门变频冰箱海尔-BCD-332WDGIU1冰箱"
+    },
+    {
+      "ordinal": 30,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔风冷四门冰箱海尔-BCD-331WDPT-冰箱"
+    },
+    {
+      "ordinal": 31,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔干湿分储冰箱海尔-BCD-328WDGF冰箱"
+    },
+    {
+      "ordinal": 32,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔无霜两门冰箱海尔-BCD-318WMGR-冰箱"
+    },
+    {
+      "ordinal": 33,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔风冷三门冰箱海尔-BCD-220WMGL冰箱"
+    },
+    {
+      "ordinal": 34,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔智能三门冰箱海尔-BCD-219WDPCU1冰箱"
+    },
+    {
+      "ordinal": 35,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔三门冰箱海尔-BCD-215WDGC冰箱"
+    },
+    {
+      "ordinal": 36,
+      "page": 3,
+      "store": "海尔旗舰店",
+      "name": "海尔三温区冰箱海尔-BCD-206STPC冰箱"
+    },
+    {
+      "ordinal": 37,
+      "page": 4,
+      "store": "海尔旗舰店",
+      "name": "海尔两门冰箱海尔-BCD-118TMPA冰箱"
+    },
+    {
+      "ordinal": 38,
+      "page": 4,
+      "store": "海尔旗舰店",
+      "name": "海尔单门冰箱海尔-BC-93TMPF冰箱"
+    },
+    {
+      "ordinal": 39,
+      "page": 4,
+      "store": "海尔旗舰店",
+      "name": "海尔雅典冰箱BD-226WG"
+    },
+    {
+      "ordinal": 40,
+      "page": 4,
+      "store": "海尔旗舰店",
+      "name": "海尔四门冰箱BCD-406WDPD"
+    },
+    {
+      "ordinal": 41,
+      "page": 4,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝醇享冰吧LC-220JE冷柜"
+    },
+    {
+      "ordinal": 42,
+      "page": 4,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝客厅冰箱LC-192WU1-冰吧"
+    },
+    {
+      "ordinal": 43,
+      "page": 4,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝对开门冰箱BCD-622WDCAU1"
+    },
+    {
+      "ordinal": 44,
+      "page": 4,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝法式冰箱BCD-559WDCPU1"
+    },
+    {
+      "ordinal": 45,
+      "page": 4,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝F+冰箱BCD-520WICTU1"
+    },
+    {
+      "ordinal": 46,
+      "page": 4,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝四门冰箱BCD-465WDCHU1"
+    },
+    {
+      "ordinal": 47,
+      "page": 4,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝至臻冰吧LC-258WU1"
+    },
+    {
+      "ordinal": 48,
+      "page": 4,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝316升博芬系列酒柜JC-316BPU1"
+    },
+    {
+      "ordinal": 49,
+      "page": 5,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝无压机固态制冷酒柜DJC-400U1"
+    },
+    {
+      "ordinal": 50,
+      "page": 5,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝立式储藏柜BD-331WEGAU1"
+    },
+    {
+      "ordinal": 51,
+      "page": 5,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝大容积法式冰箱BCD-777WLCFDGAD5U1"
+    },
+    {
+      "ordinal": 52,
+      "page": 5,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝双屏冰箱BCD-659WISSU1"
+    },
+    {
+      "ordinal": 53,
+      "page": 5,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝全景抽屉对开门冰箱BCD-640WDCHU1"
+    },
+    {
+      "ordinal": 54,
+      "page": 5,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝天成自由嵌入式冰箱BCD-633WIGWU1"
+    },
+    {
+      "ordinal": 55,
+      "page": 5,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝ACME零距离自由嵌入式冰箱BCD-550WGCFDAFA5U1"
+    },
+    {
+      "ordinal": 56,
+      "page": 5,
+      "store": "卡萨帝旗舰店",
+      "name": "卡萨帝意式冰箱BCD-435WDCAU1"
+    },
+    {
+      "ordinal": 57,
+      "page": 5,
+      "store": "海信全品类产品旗舰店",
+      "name": "海信冰箱BCD-505WTDGVBPIV锦绣墨岩"
+    },
+    {
+      "ordinal": 58,
+      "page": 5,
+      "store": "海信全品类产品旗舰店",
+      "name": "海信冰箱BCD-555WTDGVBPIV麒麟冰釉"
+    },
+    {
+      "ordinal": 59,
+      "page": 5,
+      "store": "海信全品类产品旗舰店",
+      "name": "海信冰箱BCD-560WTDGVBPMIV星河墨岩"
+    },
+    {
+      "ordinal": 60,
+      "page": 5,
+      "store": "海信全品类产品旗舰店",
+      "name": "海信（Hisense）璀璨系列605升变频一级能效T型门冰箱风冷 真空保鲜全域净化BCD-605WTDGVBPVIC1P"
+    },
+    {
+      "ordinal": 61,
+      "page": 6,
+      "store": "重庆市佳友电器有限责任公司",
+      "name": "海尔"
+    },
+    {
+      "ordinal": 62,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇253RS 双门复古冰箱进口家用客厅小型大容量网红高颜值"
+    },
+    {
+      "ordinal": 63,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇208RI冰吧冷藏柜超薄嵌入家用客厅茶叶饮料冰箱办公室"
+    },
+    {
+      "ordinal": 64,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇130RD-S冰吧冷藏柜家用客厅小型透明冷藏冷冻冰箱网红"
+    },
+    {
+      "ordinal": 65,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇130RDC复古冰箱白色家用客厅冷冻冷藏小型迷你网红进口"
+    },
+    {
+      "ordinal": 66,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇130RDA复古红酒柜49瓶恒温进口家用小型冰吧冰箱白色"
+    },
+    {
+      "ordinal": 67,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇130RBA冰吧冷藏柜家用客厅小型冷饮饮料迷你冰箱办公室"
+    },
+    {
+      "ordinal": 68,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇 SC-46RGE 化妆品冰箱复古小型迷你护肤面膜美容美妆"
+    },
+    {
+      "ordinal": 69,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇46EX冰箱白色小型mini办公室家用宿舍冷藏冷冻无霜母乳"
+    },
+    {
+      "ordinal": 70,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇 BC-46COC化妆品冰箱白色复古小型迷你护肤面膜美容美妆"
+    },
+    {
+      "ordinal": 71,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇46BUA冰吧冷藏柜可口可乐联名款家用客厅小型冰柜冰箱"
+    },
+    {
+      "ordinal": 72,
+      "page": 6,
+      "store": "广东哈士奇制冷设备有限公司",
+      "name": "HCK哈士奇130GGA复古冰箱浅绿色进口家用客厅小型大容量网红高颜值"
+    }
+  ]
+}

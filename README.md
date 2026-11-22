@@ -4,7 +4,7 @@
 
 An interactive home renovation planner by **Chit Naing**. Draw rooms and partitions, place fixed-size furniture, inspect your layout in 2D or a navigable 3D studio, and export a structured item list for quotation review.
 
-This repository is a public sample-data edition of a larger local prototype. It includes illustrative planning samples and a MOCOF reference gallery restored from the owner-provided Drive collection. Customer project storage and supplier catalogs are excluded.
+This repository is a public sample-data edition of a larger local prototype. It includes illustrative planning samples and a MOCOF reference gallery restored from the owner-provided Drive collection. The owner-requested product, design and material catalog is included. Customer project storage remains private to each visitor browser.
 
 ## Features
 
@@ -45,9 +45,9 @@ PDF reference import additionally requires Poppler's `pdftoppm` locally. The hos
 
 ## Deploy to Vercel
 
-Import this repository into Vercel. Use **Other** as the framework preset, leave the build command empty, and retain the checked-in `vercel.json`. The output directory is `static`; `api/index.py` serves the sample catalog and quotation-validation API.
+Import this repository into Vercel. Use **Other** as the framework preset, leave the build command empty, and retain the checked-in `vercel.json`. The output directory is `static`; `api/index.py` serves the product catalog and quotation-validation API.
 
-The hosted API keeps only a disposable sample catalog in `/tmp`. Project JSON is stored in each visitor's `localStorage`, not in a shared server database. Production use would require authenticated accounts, durable storage, approved supplier pricing and server-side project ownership controls.
+The hosted API keeps only a disposable catalog in `/tmp`. Project JSON is stored in each visitor's `localStorage`, not in a shared server database. Production use would require authenticated accounts, durable storage, approved supplier pricing and server-side project ownership controls.
 
 ## Portfolio description
 

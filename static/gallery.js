@@ -1,7 +1,7 @@
 const customerGallery=document.createElement('section');customerGallery.className='customer-gallery';
 customerGallery.innerHTML='<div class="gallery-heading"><div><small>MOCOF DESIGN COLLECTION</small><h2>Find a home that feels like yours.</h2><p>Explore MOCOF design concepts and completed renovations. Choose a look for your home.</p></div></div><div class="gallery-filters"><button data-gallery-type="all" class="chosen">All designs</button><button data-gallery-type="concept">Design concepts</button><button data-gallery-type="completed">Completed renovations</button><input id="gallery-search" placeholder="Search design name…" aria-label="Search company designs"></div><p id="gallery-count" class="muted"></p><div id="company-designs"></div><p class="muted">Browse design references from our collection. Product matches, measurements and quotations are confirmed during review.</p>';
 panels[1].insertBefore(customerGallery,referenceDock);
-const chooseLibrary=document.createElement('details');chooseLibrary.className='template-library';chooseLibrary.innerHTML='<summary>Explore sample catalog</summary>';
+const chooseLibrary=document.createElement('details');chooseLibrary.className='template-library';chooseLibrary.innerHTML='<summary>Explore product catalog</summary>';
 panels[1].insertBefore(chooseLibrary,referenceDock);chooseLibrary.append(library);
 // Keep the shared catalog in its template drawer when returning to the style step.
 const galleryStep=showStep;

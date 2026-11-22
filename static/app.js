@@ -12,7 +12,7 @@ function changed(){project.status='draft';project.review=null;project.quote=null
 function renderCatalog(){
   const term=$('search').value.toLowerCase();const kind=$('collection').value;
   const rows=catalog.filter(r=>r.kind===kind&&JSON.stringify(r).toLowerCase().includes(term));
-  $('count').textContent=`${rows.length.toLocaleString()} records · Illustrative sample data`;
+  $('count').textContent=`${rows.length.toLocaleString()} records · MOCOF product & design catalog`;
   $('catalog').innerHTML=rows.slice(0,limit).map(r=>`<button class="card" draggable="false" data-placeable="${catalogCanPlace(r)}" data-id="${escape(r.id)}" aria-label="${escape((catalogCanPlace(r)?'Place ':'Reference: ')+catalogBilingualName(r))}">${image(r)?`<img draggable="false" loading="lazy" src="${escape(image(r))}" alt="${escape(catalogBilingualName(r))}">`:'<div class="placeholder">◇</div>'}<strong>${escape(catalogSourceName(r))}</strong>${r.name_en&&r.name_en!==catalogSourceName(r)?`<span class="english-name" lang="en">${escape(r.name_en)}</span>`:''}<span>${escape(r.model_reference||r.category||r.room||r.kind)}${r.category_en?' · '+escape(r.category_en):''}</span><span class="placement-badge">${catalogCanPlace(r)?'Drag or click to place':'Reference only'}</span></button>`).join('');
   $('catalog').querySelectorAll('img').forEach(e=>e.onerror=()=>{e.style.opacity='.15';e.alt='Preview unavailable';});
   $('more').hidden=rows.length<=limit;
