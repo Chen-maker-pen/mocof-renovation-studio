@@ -47,7 +47,7 @@ $('auto-tour').onclick=()=>{if(inside)setCameraMode(false);controls.autoRotate=!
 navigation.querySelectorAll('[data-walk]').forEach(button=>button.onclick=()=>walk(button.dataset.walk));
 $('visit-room').onchange=()=>{const room=visitRooms()[+$('visit-room').value];if(!room||$('visit-room').value==='')return;if(!inside)setCameraMode(true);camera.position.set(room.x,1.6,room.y);yaw=0;pitch=0;lookInside();};
 let modelSignature='',selectedSurface=null,pendingPlacement=null;
-function highlight(object){object.updateWorldMatrix(true,true);const edge=new THREE.BoxHelper(object,0x00a6c2);edge.material.depthTest=false;edge.material.transparent=true;edge.material.opacity=1;edge.renderOrder=100;edge.raycast=()=>{};objects.add(edge);}
+function highlight(object){object.updateWorldMatrix(true,true);const edge=new THREE.BoxHelper(object,0x00a6c2);edge.material.depthTest=false;edge.material.toneMapped=false;edge.material.fog=false;edge.material.linewidth=2;object.traverse(child=>{if(child.isMesh&&child.material.emissive){child.material.emissive.set(0x075564);child.material.emissiveIntensity=.35;}});edge.material.transparent=true;edge.material.opacity=1;edge.renderOrder=100;edge.raycast=()=>{};objects.add(edge);}
 
 function visitRooms(){return [...(project.sample_rooms||[]),...(project.rooms||[]).map(r=>({name:r.name,x:r.vertices.reduce((v,p)=>v+p.x,0)/r.vertices.length,y:r.vertices.reduce((v,p)=>v+p.y,0)/r.vertices.length}))];}
 function material(colour,roughness=.8){return new THREE.MeshStandardMaterial({color:colour,roughness});}
