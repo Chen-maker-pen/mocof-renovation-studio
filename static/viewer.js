@@ -107,16 +107,16 @@ function resize(){if(!renderer||!viewport.clientWidth)return;renderer.setSize(vi
 function fit(){if(!camera)return;if(inside){resize();lookInside();return;}const w=project.room.width,d=project.room.depth,span=Math.max(w,d)*Math.max(1,viewport.clientHeight/Math.max(viewport.clientWidth,1)*.85);controls.target.set(w/2,.4,d/2);camera.position.set(w/2+span*.95,span*1.05,d/2+span*1.15);controls.update();resize();}
 function rebuild(){
   if(!objects)return;
-  const signature=JSON.stringify([project.room,project.rooms,project.items,project.walls,project.palette,selected,$('outer-walls').checked,$('cutaway-walls').checked]);if(signature===modelSignature)return;modelSignature=signature;
+  const signature=JSON.stringify([project.room,project.rooms,project.items,project.walls,project.palette,project.floor_color,project.wall_color,selected,$('outer-walls').checked,$('cutaway-walls').checked]);if(signature===modelSignature)return;modelSignature=signature;
   disposeGroup(objects);const w=project.room.width,d=project.room.depth;
   const rooms=visitRooms();$('visit-room').innerHTML='<option value="">Choose a room…</option>'+rooms.map((room,index)=>`<option value="${index}">${escape(room.name)}</option>`).join('');
   const visibleHeight=h=>$('cutaway-walls').checked?Math.min(h,.8):h;
-  block(objects,w,.1,d,w/2,-.08,d/2,'#d6c3a6');
-  for(let x=.3;x<w;x+=.35)block(objects,.006,.002,d,x,-.026,d/2,'#bbaa90');
-  if($('outer-walls').checked&&!project.plan_conversion){if(!planHasBoundaryWall(project.walls||[],project.room,'top'))block(objects,w,visibleHeight(2.7),.12,w/2,visibleHeight(2.7)/2,0,'#f1ede5');if(!planHasBoundaryWall(project.walls||[],project.room,'left'))block(objects,.12,visibleHeight(2.7),d,0,visibleHeight(2.7)/2,d/2,'#e4ded2');}
-  for(const wall of project.walls||[]){
-    const group=new THREE.Group(),length=Math.hypot(wall.x2-wall.x1,wall.y2-wall.y1),height=visibleHeight(wall.height);
-    const segment=(start,end,bottom,top)=>{if(end-start>.001&&top-bottom>.001)block(group,end-start,top-bottom,wall.thickness,(start+end)/2-length/2,(bottom+top)/2,0,'#e8e1d5');};
+  block(objects,w,.1,d,w/2,-.08,d/2,project.floor_color||'#d6c3a6').userData.surface='floor';
+  if(!project.floor_color)for(let x=.3;x<w;x+=.35)block(objects,.006,.002,d,x,-.026,d/2,'#bbaa90').userData.surface='floor';
+  if($('outer-walls').checked&&!project.plan_conversion){if(!planHasBoundaryWall(project.walls||[],project.room,'top'))block(objects,w,visibleHeight(2.7),.12,w/2,visibleHeight(2.7)/2,0,project.wall_color||'#f1ede5').userData.surface='wall';if(!planHasBoundaryWall(project.walls||[],project.room,'left'))block(objects,.12,visibleHeight(2.7),d,0,visibleHeight(2.7)/2,d/2,project.wall_color||'#e4ded2').userData.surface='wall';}
+  for(const [wallIndex,wall] of (project.walls||[]).entries()){
+    const group=new THREE.Group();group.userData.surface='wall';group.userData.wallIndex=wallIndex;const length=Math.hypot(wall.x2-wall.x1,wall.y2-wall.y1),height=visibleHeight(wall.height);
+    const segment=(start,end,bottom,top)=>{if(end-start>.001&&top-bottom>.001)block(group,end-start,top-bottom,wall.thickness,(start+end)/2-length/2,(bottom+top)/2,0,wall.color||project.wall_color||'#e8e1d5');};
     for(const slice of planWallSlices(wall,height))segment(slice.start,slice.end,slice.bottom,slice.top);
     for(const opening of wall.openings||[])if(opening.kind==='window'&&height>opening.sill)block(group,opening.width,Math.min(opening.height,height-opening.sill),.025,opening.offset+opening.width/2-length/2,opening.sill+Math.min(opening.height,height-opening.sill)/2,0,'#a5c6ce');
     group.position.set((wall.x1+wall.x2)/2,0,(wall.y1+wall.y2)/2);group.rotation.y=-Math.atan2(wall.y2-wall.y1,wall.x2-wall.x1);objects.add(group);
@@ -126,7 +126,9 @@ function rebuild(){
 }
 function tick(){raf=requestAnimationFrame(tick);if(!host.hidden){if(!inside)controls.update();renderer.render(scene,camera);}}
 function hit(event){const r=renderer.domElement.getBoundingClientRect();pointer.set((event.clientX-r.left)/r.width*2-1,-(event.clientY-r.top)/r.height*2+1);raycaster.setFromCamera(pointer,camera);return raycaster.intersectObjects(objects.children,true);}
+let surfacePress=null;
 function pointerDown(event){
+  const nearest=hit(event)[0];let target=nearest?.object;while(target&&!target.userData.surface&&!target.userData.itemId)target=target.parent;surfacePress=target?.userData.surface?{x:event.clientX,y:event.clientY,kind:target.userData.surface,index:target.userData.wallIndex}:null;
   renderer.domElement.focus({preventScroll:true});
   if(inside){lookDrag={x:event.clientX,y:event.clientY};renderer.domElement.setPointerCapture(event.pointerId);return;}
   const intersects=hit(event);let item=null;
@@ -136,7 +138,7 @@ function pointerDown(event){
   draw();
 }
 function pointerMove(event){if(inside&&lookDrag){yaw-=(event.clientX-lookDrag.x)*.005;pitch=Math.max(-1.3,Math.min(1.3,pitch-(event.clientY-lookDrag.y)*.005));lookDrag={x:event.clientX,y:event.clientY};lookInside();return;}if(!dragItem)return;hit(event);const p=new THREE.Vector3();if(!raycaster.ray.intersectPlane(floorPlane,p))return;dragItem.x=Math.max(0,Math.min(project.room.width,p.x+dragOffset.x));dragItem.y=Math.max(0,Math.min(project.room.depth,p.z+dragOffset.z));changed();}
-function pointerUp(){dragItem=null;lookDrag=null;if(controls)controls.enabled=!inside;}
+function pointerUp(event){if(surfacePress&&event&&Math.hypot(event.clientX-surfacePress.x,event.clientY-surfacePress.y)<5)document.dispatchEvent(new CustomEvent('studio-surface',{detail:surfacePress}));surfacePress=null;dragItem=null;lookDrag=null;if(controls)controls.enabled=!inside;}
 function open3d(){view3d=true;wallMode=false;wallStart=null;host.hidden=false;$('canvas').setAttribute('hidden','');if(init()){rebuild();resize();fit();}host.scrollIntoView({behavior:'smooth',block:'center'});$('view3d').setAttribute('aria-pressed','true');$('view2d').setAttribute('aria-pressed','false');$('suggest-note').textContent='3D studio · Drag background to orbit, or enable Move furniture in 3D.';}
 const previousDraw=draw;
 draw=function(){previousDraw();if(!host.hidden&&renderer){rebuild();resize();}};
@@ -171,3 +173,7 @@ houseButton.onclick=()=>{
 };
 explore.onclick=()=>{beginDesign();showStep(2);if(!project.items.length&&!project.layout&&!project.walls?.length)example();else open3d();};
 const stageObserver=new MutationObserver(()=>{if(!host.hidden){resize();}});stageObserver.observe(canvasWrap,{attributes:true,subtree:false});
+
+document.dispatchEvent(new Event('studio-viewer-ready'));
+
+document.addEventListener('studio-editor-resize',()=>requestAnimationFrame(resize));

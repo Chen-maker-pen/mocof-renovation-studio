@@ -11,7 +11,7 @@ function appendWallLines(){
   const svg=$('canvas'),s=+svg.dataset.scale,ox=+svg.dataset.ox,oy=+svg.dataset.oy;
   for(const wall of wallGeometry()){
     const line=document.createElementNS(svgNS,'line');
-    for(const [k,v] of Object.entries({x1:ox+wall.x1*s,y1:oy+wall.y1*s,x2:ox+wall.x2*s,y2:oy+wall.y2*s,stroke:'#8b7763','stroke-width':Math.max(3,wall.thickness*s),'stroke-linecap':'square'}))line.setAttribute(k,v);
+    for(const [k,v] of Object.entries({x1:ox+wall.x1*s,y1:oy+wall.y1*s,x2:ox+wall.x2*s,y2:oy+wall.y2*s,stroke:wall.color||project.wall_color||'#8b7763','stroke-width':Math.max(3,wall.thickness*s),'stroke-linecap':'square'}))line.setAttribute(k,v);
     line.style.pointerEvents='none';svg.append(line);
   }
   if(wallStart){const circle=document.createElementNS(svgNS,'circle');circle.setAttribute('cx',ox+wallStart.x*s);circle.setAttribute('cy',oy+wallStart.y*s);circle.setAttribute('r',5);circle.setAttribute('fill','#a97854');svg.append(circle);}
