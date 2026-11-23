@@ -25,6 +25,6 @@ document.addEventListener('studio-surface',e=>chooseSurface(e.detail));
 $('canvas').addEventListener('pointerup',e=>{const wall=e.target.closest('[data-wall-index]');if(active==='Colours'&&wall)chooseSurface({kind:'wall',index:+wall.dataset.wallIndex});});
 function viewerReady(){const nav=document.querySelector('.camera-navigation');if(nav)camera.append(nav);const tools=document.querySelector('.viewer-tools');if(tools)camera.append(tools);const host=$('three-viewer');if(host)host.append(reference);document.dispatchEvent(new Event('studio-editor-resize'));}
 document.addEventListener('studio-viewer-ready',viewerReady);if($('three-viewer'))viewerReady();
-const previous=draw;let imageSource='';draw=function(){previous();const src=project.original_layout||project.layout||'';if(src!==imageSource){imageSource=src;reference.querySelector('img').src=src;reference.querySelector('img').hidden=!src;reference.querySelector('p').hidden=!!src;}reference.hidden=!view3d;};draw();
+const previous=draw;let imageSource=null;draw=function(){previous();const src=project.original_layout||project.layout||'';if(src!==imageSource){imageSource=src;reference.querySelector('img').src=src;reference.querySelector('img').hidden=!src;reference.querySelector('p').hidden=!!src;}reference.hidden=!view3d;};draw();
 const previousStep=showStep;showStep=function(n){previousStep(n);if(n===2)shell.append(canvasWrap);};
 })();
