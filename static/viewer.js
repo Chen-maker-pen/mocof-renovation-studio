@@ -113,7 +113,7 @@ function rebuild(){
   const visibleHeight=h=>$('cutaway-walls').checked?Math.min(h,.8):h;
   block(objects,w,.1,d,w/2,-.08,d/2,'#d6c3a6');
   for(let x=.3;x<w;x+=.35)block(objects,.006,.002,d,x,-.026,d/2,'#bbaa90');
-  if($('outer-walls').checked){if(!planHasBoundaryWall(project.walls||[],project.room,'top'))block(objects,w,visibleHeight(2.7),.12,w/2,visibleHeight(2.7)/2,0,'#f1ede5');if(!planHasBoundaryWall(project.walls||[],project.room,'left'))block(objects,.12,visibleHeight(2.7),d,0,visibleHeight(2.7)/2,d/2,'#e4ded2');}
+  if($('outer-walls').checked&&!project.plan_conversion){if(!planHasBoundaryWall(project.walls||[],project.room,'top'))block(objects,w,visibleHeight(2.7),.12,w/2,visibleHeight(2.7)/2,0,'#f1ede5');if(!planHasBoundaryWall(project.walls||[],project.room,'left'))block(objects,.12,visibleHeight(2.7),d,0,visibleHeight(2.7)/2,d/2,'#e4ded2');}
   for(const wall of project.walls||[]){
     const group=new THREE.Group(),length=Math.hypot(wall.x2-wall.x1,wall.y2-wall.y1),height=visibleHeight(wall.height);
     const segment=(start,end,bottom,top)=>{if(end-start>.001&&top-bottom>.001)block(group,end-start,top-bottom,wall.thickness,(start+end)/2-length/2,(bottom+top)/2,0,'#e8e1d5');};
